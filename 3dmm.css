@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Cascadia Code;
+}
+
+:link {
+  outline: red
+  color: red;
+  /* The default value of background-color is `transparent`. You need to
+     specify a different value, otherwise changes on :visited won't apply. */
+}
+
+:visited {
+  outline: darkred;
+  color: darkred;            /* Visited links have yellow colored text */
+}
