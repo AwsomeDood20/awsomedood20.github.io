@@ -7,7 +7,13 @@ body {
   color: white;
   font-family: Cascadia Code;
 }
-
+@font-face {
+ font-family:cascadia code;
+ font-style:normal;
+ font-weight:400;
+ src:local('Cascadia Code'),
+ url(https://fonts.cdnfonts.com/s/29131/Cascadia.woff) format('woff')
+}
 :link {
   outline: slateblue
   color: slateblue;
